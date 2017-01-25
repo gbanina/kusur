@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return Redirect::to('bills');
 });
+
+Route::resource('bills', 'BillController');
