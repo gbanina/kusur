@@ -5,7 +5,7 @@
 <div class="container">
       <div class="starter-template">
         <h1>Novi trošak</h1>
-          {!! HTML::ul($errors->all()) !!}
+          {!! var_dump($errors->all()) !!}
           {!! Form::open(array('url' => 'bills', 'class' => 'form-horizontal')) !!}
               <div class="form-group">
                       <label for="inputEmail3" class="col-sm-2 control-label">Korisnik</label>
