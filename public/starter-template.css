@@ -8,7 +8,17 @@ body {
 
 .container {
     padding-right: 0px !important;
-    padding-left: 0px !important; 
+    padding-left: 0px !important;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media only screen and (max-width: 320px) {
+    h3 {
+        font-size: 20px;
+    }
+    .well-lg {
+        padding: 6px;
+        border-radius: 6px;
+    }
 }
